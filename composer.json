@@ -14,6 +14,9 @@
         "php":">=7.0"
     },
     "autoload": {
+        "files":[
+            "helper/helpers.php"
+        ],
         "psr-4": {
             "Build\\": "resolveTo"
         }
