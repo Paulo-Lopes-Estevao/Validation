@@ -7,7 +7,7 @@ use Build\Validation\Mode\DataMode;
 class Identity extends DataMode
 {
 
-    private function Method()
+    private function Method():void
     {
         $this->setData($_POST);
     }

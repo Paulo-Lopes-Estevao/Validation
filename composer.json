@@ -18,7 +18,7 @@
             "helper/helpers.php"
         ],
         "psr-4": {
-            "Build\\": "resolveTo"
+            "Build\\": "resolveTo/"
         }
     }
 }
