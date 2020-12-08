@@ -2,5 +2,5 @@
 
 require_once("../vendor/autoload.php");
 
-$codeiban = "003764756LA037";
+$codeiban = "AO06.0006.0000.00000000.00.00.0";
 echo iban($codeiban);

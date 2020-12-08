@@ -12,7 +12,7 @@ class Identity extends DataMode
         $this->setData($_POST);
     }
 
-    public function validarIBAN()
+    public function validarBI()
     {
         $this->Method();
 

@@ -1,8 +1,8 @@
 <?php
 require_once("../../../vendor/autoload.php");
-use Build\Validation\BI\Identity;
-$return = new Identity();
-echo $return->validarIBAN();
+use Build\Validation\IBAN\Numconta;
+$return = new Numconta();
+echo $return->validarIBAN()!="" ? $return->validarIBAN()."<br>".$return->verifyBank(): "";
 
 ?>
 
@@ -12,14 +12,14 @@ echo $return->validarIBAN();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validation BI</title>
+    <title>Validation IBAN</title>
 </head>
 
 <body>
     <form action="" method="POST">
         <div>
             <label for="">
-                <input type="text" name="bi" placeholder="digite nº BI" id="">
+                <input type="text" name="iban" placeholder="digite nº IBAN" id="">
             </label>
         </div> 
         <button> verificar </button>

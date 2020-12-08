@@ -2,7 +2,7 @@
 require_once("../../../vendor/autoload.php");
 use Build\Validation\BI\Identity;
 $return = new Identity();
-echo $return->validarIBAN();
+echo $return->validarBI();
 
 ?>
 

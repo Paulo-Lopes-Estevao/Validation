@@ -1,6 +1,11 @@
 {
-    "name": "resolving/back-end",
+    "name": "resolving/validation",
     "description": "Solve big problem in a simpler possible way",
+    "keywords": [
+        "validation",
+        "validação",
+        "Paulo Lopes Estevão"
+    ],
     "type": "project",
     "license": "MIT",
     "authors": [
