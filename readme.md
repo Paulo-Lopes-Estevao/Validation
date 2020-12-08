@@ -9,8 +9,11 @@ Project aims to help developers filter data entry drom major personal data field
 
 ´´´
 Iban
+<<<<<<< HEAD
 ´´´
 ´´´
+=======
+>>>>>>> 58aa031e9adedc4eb45330a74d6bc5c890c02fe4
 BI
 ´´´
 
@@ -22,4 +25,8 @@ BI
 
 # Universal
 
+<<<<<<< HEAD
 ### Obs: Faça os testes antes do pull request. / Tests before pull request.
+=======
+### Obs: Faça os testes antes do pull request. / Tests before pull request.
+>>>>>>> 58aa031e9adedc4eb45330a74d6bc5c890c02fe4
